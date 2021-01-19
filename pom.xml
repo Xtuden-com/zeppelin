@@ -138,7 +138,7 @@
     <commons.cli.version>1.4</commons.cli.version>
     <shiro.version>1.4.2</shiro.version>
     <joda.version>2.9.9</joda.version>
-    <bouncycastle.version>1.60</bouncycastle.version>
+    <bouncycastle.version>1.61</bouncycastle.version>
     <maven.version>3.6.3</maven.version>
 
     <hadoop2.7.version>2.7.7</hadoop2.7.version>
@@ -1356,7 +1356,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
