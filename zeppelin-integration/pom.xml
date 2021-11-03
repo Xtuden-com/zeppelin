@@ -53,7 +53,7 @@
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
-      <version>2.8.2</version>
+      <version>2.8.9</version>
     </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
@@ -158,8 +158,7 @@
             <phase>pre-integration-test</phase>
             <configuration>
               <target unless="skipTests">
-                <exec executable="./zeppelin-daemon.sh" dir="${zeppelin.daemon.package.base}"
-                  spawn="false">
+                <exec executable="./zeppelin-daemon.sh" dir="${zeppelin.daemon.package.base}" spawn="false">
                   <arg value="start"/>
                 </exec>
               </target>
@@ -173,8 +172,7 @@
             <phase>post-integration-test</phase>
             <configuration>
               <target unless="skipTests">
-                <exec executable="./zeppelin-daemon.sh" dir="${zeppelin.daemon.package.base}"
-                  spawn="false">
+                <exec executable="./zeppelin-daemon.sh" dir="${zeppelin.daemon.package.base}" spawn="false">
                   <arg value="stop"/>
                 </exec>
               </target>
