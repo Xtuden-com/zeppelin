@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 MAINTAINER Apache Software Foundation <dev@zeppelin.apache.org>
 
 ENV Z_VERSION="0.9.0-preview2"
